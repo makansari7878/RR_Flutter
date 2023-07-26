@@ -44,6 +44,7 @@ class ThemeScreen extends StatelessWidget {
     );
   }
 }
+//creating custom text prop
 class CustomTextStyle {
   static const TextStyle nameOfTextStyle = TextStyle(
     fontSize: 44,
