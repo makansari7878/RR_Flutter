@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'AlignItems.dart';
 import 'FirstScreen.dart';
 import 'ListScreen.dart';
+import 'Login.dart';
 import 'SecondScreen.dart';
 import 'ThemeScreen.dart';
 
@@ -31,7 +32,7 @@ class MyApp extends StatelessWidget{
             bodyMedium: TextStyle(fontSize: 14.0, ),
           ), colorScheme: ColorScheme.fromSwatch().copyWith(secondary: Colors.deepOrangeAccent),
         ),
-      home: ThemeScreen()
+      home: Login()
     );
 
   }
