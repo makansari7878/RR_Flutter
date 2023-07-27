@@ -10,6 +10,8 @@ import 'Login.dart';
 import 'Registration.dart';
 import 'SecondScreen.dart';
 import 'ThemeScreen.dart';
+import 'nav/NavScreen.dart';
+import 'nav/TabsScreen.dart';
 
 void main() {
   runApp(  MyApp()  );
@@ -36,7 +38,7 @@ class MyApp extends StatelessWidget{
             bodyMedium: TextStyle(fontSize: 14.0, ),
           ), colorScheme: ColorScheme.fromSwatch().copyWith(secondary: Colors.deepOrangeAccent),
         ),
-      home: HomePage()
+      home: TabsScreen()
     );
 
   }
