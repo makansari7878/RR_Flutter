@@ -1,13 +1,14 @@
+/*
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 
-class HomeScreen extends StatefulWidget {
+class SharedPref extends StatefulWidget {
   @override
-  _HomeScreenState createState() => _HomeScreenState();
+  _SharedPrefState createState() => _SharedPrefState();
 }
 
-class _HomeScreenState extends State<HomeScreen> {
+class _SharedPrefState extends State<SharedPref> {
   TextEditingController _controller = TextEditingController();
   String _savedText = '';
 
@@ -52,11 +53,11 @@ class _HomeScreenState extends State<HomeScreen> {
             SizedBox(height: 20),
             Text(
               'Saved Text: $_savedText',
-              style: TextStyle(fontSize: 20),
+              style: TextStyle(fontSize: 20 , color: Colors.redAccent),
             ),
           ],
         ),
       ),
     );
   }
-}
+}*/

@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:rr_one_flutter/HomeScreen.dart';
+import 'package:rr_one_flutter/SharedPref.dart';
 
 import 'AlignItems.dart';
 import 'FirstScreen.dart';
+import 'HttpDemo.dart';
+import 'HttpScreen.dart';
 import 'ListScreen.dart';
 import 'Login.dart';
 import 'Registration.dart';
@@ -34,7 +36,7 @@ class MyApp extends StatelessWidget{
             bodyMedium: TextStyle(fontSize: 14.0, ),
           ), colorScheme: ColorScheme.fromSwatch().copyWith(secondary: Colors.deepOrangeAccent),
         ),
-      home: HomeScreen()
+      home: HomePage()
     );
 
   }
